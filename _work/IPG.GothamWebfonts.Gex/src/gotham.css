@@ -1,0 +1,166 @@
+/**
+ * Font face declarations for Gotham font family.
+ * TODO: include link to figma files assiciated with this stylesheet
+ *
+ * @font-face { font-family: gotham; font-weight: 100; ... }
+ * ...
+ * @font-face { font-family: gotham-rounded; font-weight: bold; ... }
+ */
+@font-face {
+	font-family: gotham;
+	font-weight: 100;
+	src: local(gotham-thin),
+		url("./gotham/normal/100/thin.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/100/thin.normal.gotham.woff") format("woff");
+}
+
+// ... rest of the font-face declarations
+@font-face {
+	font-family: gotham;
+	font-weight: 100;
+	src: local(gotham-thin),
+		url("./gotham/normal/100/thin.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/100/thin.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-weight: 200;
+	src: local(gotham-extralight),
+		url("./gotham/normal/200/extralight.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/200/extralight.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-weight: 300;
+	src: local(gotham-light),
+		url("./gotham/normal/300/light.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/300/light.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	src: local(gotham-book),
+		url("./gotham/normal/400/book.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/400/book.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-weight: 500;
+	src: local(gotham-medium),
+		url("./gotham/normal/500/medium.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/500/medium.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-weight: bold;
+	src: local(gotham-bold),
+		url("./gotham/normal/700/bold.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/700/bold.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-weight: 800;
+	src: local(gotham-ultra),
+		url("./gotham/normal/800/ultra.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/800/ultra.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-weight: 900;
+	src: local(gotham-black),
+		url("./gotham/normal/900/black.normal.gotham.woff2") format("woff2"),
+		url("./gotham/normal/900/black.normal.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	font-weight: 100;
+	src: local(gotham-thinitalic),
+		url("./gotham/italic/100/thin.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/100/thin.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	font-weight: 200;
+	src: local(gotham-extralightitalic),
+		url("./gotham/italic/200/extralight.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/200/extralight.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	font-weight: 300;
+	src: local(gotham-lightitalic),
+		url("./gotham/italic/300/light.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/300/light.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	src: local(gotham-bookitalic),
+		url("./gotham/italic/400/book.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/400/book.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	font-weight: 600;
+	src: local(gotham-bolditalic),
+		url("./gotham/italic/500/medium.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/500/medium.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	font-weight: bold;
+	src: local(gotham-bolditalic),
+		url("./gotham/italic/700/bold.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/700/bold.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	font-weight: 800;
+	src: local(gotham-ultraitalic),
+		url("./gotham/italic/800/ultra.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/800/ultra.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham;
+	font-style: italic;
+	font-weight: 900;
+	src: local(gotham-blackitalic),
+		url("./gotham/italic/900/black.italic.gotham.woff2") format("woff2"),
+		url("./gotham/italic/900/black.italic.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham-rounded;
+	font-weight: 500;
+	src: local(gothamrounded-medium),
+		url("./gotham/rounded/500/medium.rounded.gotham.woff2") format("woff2"),
+		url("./gotham/rounded/500/medium.rounded.gotham.woff") format("woff");
+}
+
+@font-face {
+	font-family: gotham-rounded;
+	font-weight: bold;
+	src: local(gothamrounded-bold),
+		url("./gotham/rounded/700/bold.rounded.gotham.woff2") format("woff2"),
+		url("./gotham/rounded/700/bold.rounded.gotham.woff") format("woff");
+}
