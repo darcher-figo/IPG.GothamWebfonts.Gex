@@ -1,0 +1,86 @@
+/**
+ * This file defines the font styles and weights used in the theme.
+ *
+ * TODO: include link to figma files assiciated with this stylesheet
+ *
+ */
+
+:root {
+	--font-weight-black: 900;
+	--font-weight-ultra: 800;
+	--font-weight-bold: bold;
+	--font-weight-semibold: 600;
+	--font-weight-medium: 500;
+	--font-weight-book: normal;
+	--font-weight-normal: 350;
+	--font-weight-light: 300;
+	--font-weight-extralight: 200;
+	--font-weight-tiny: 100;
+}
+
+body {
+	--font-family: gotham, system-ui, sans-serif;
+	--font-weight: var(--font-weight-normal);
+}
+
+:where(
+		input,
+		button,
+		select,
+		textarea,
+		datalist,
+		[tabindex="0"],
+		[tabindex="1"],
+		[role="button"]
+	):not([focusable="false"]) {
+	--outline-offset: var(--size-relative--01);
+	--font-weight: var(--font-weight-book);
+
+	&:focus {
+		--offset-offset: var(--size-relative-01);
+	}
+}
+
+:where(code, kbd, pre, samp) {
+	--font-weight: var(--font-weight-extralight);
+}
+
+:where(samp, pre) {
+	--font-family: rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif",
+		"Sitka Small", serif-ui, serif;
+}
+
+:where(code, kbd) {
+	--font-family: "Nimbus Mono PS", "Courier New", monospace-ui, monospace;
+}
+
+:where(h1, h2, h3, h4, h5, h6, dt, label, legend, th) {
+	--font-family: "Gotham Rounded", gotham-rounded, gothamrounded, ui-rounded,
+		"Hiragino Maru Gothic ProN", quicksand, comfortaa, manjari,
+		"Arial Rounded MT", "Arial Rounded MT Bold", calibri, source-sans-pro,
+		rounded-ui, sans-serif;
+}
+
+:where(header, hgroup, thead):is(> :where(h1, h2, h3, h4, h5, h6, td):is(+ *)) {
+	--font-weight: bolder;
+}
+
+:where(h1, h2, h3, h4, h5, h6):is(> *) {
+	--font-weight: var(--font-weight-semibold);
+}
+
+:where(h2, h3, h4, h5, h6) {
+	--font-weight: var(--font-weight-bold);
+}
+
+h1 {
+	--font-weight: var(--font-weight-ultra);
+}
+
+em {
+	--font-style: italic;
+}
+
+i {
+	--font-style: oblique;
+}
