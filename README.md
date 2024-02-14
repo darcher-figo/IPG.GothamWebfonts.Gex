@@ -21,7 +21,7 @@ Lets hop in and get you some Icon's!
 
 ```shell
 # clone repository locally...
-gh repo clone darcher-figo/gexicons && cd gexicons
+gh repo clone darcher-figo/GexGothamFont && cd GexGothamFont
 
 # align node version
 nvm use                 # ...or nvm install
